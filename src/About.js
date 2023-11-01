@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import "./styles/About.css";
 import image from "./images/MyPic.png";
 import Socials from "./Socials";
+import Footer from "./Footer";
 
 
 
@@ -57,9 +58,9 @@ const About = () => {
 							<Socials />
 						</div>
 					</div>
-					{/* <div className="page_footer">
-						<Footer />
-					</div> */}
+				</div>
+                <div className="page_footer">
+					<Footer />
 				</div>
 			</div>
 		</>

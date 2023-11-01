@@ -1,73 +1,55 @@
-import React from 'react'
-import ProjectCard from './ProjectCard'
-import netflixImage from './images/Netflix.png'
-import amazonImage from './images/Amazon.png'
-import './styles/ProjectPage.css'
+import React, { useEffect } from "react";
+import "./styles/ProjectPage.css";
+import ProjectContainer from "./ProjectContainer";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+
 
 const ProjectPage = () => {
-    const projects = [
-        {
-         "id": 1,
-         "title": 'Netflix Clone App',
-         "description": "A netflix app clone with similar functionalities of the real app using ReactJS!",
-         "image": netflixImage,
-         "githubLink": "https://github.com/Bentot23/netflix-app-clone-project.git",
-         "appLink": "https://main.djjq2suxqxp7.amplifyapp.com/"
-        },
-        {
-            "id": 2,
-            "title": 'Amazon Clone App',
-            "description": "An amazon clone app with similar functionalities of the app using ReactJS!",
-            "image": amazonImage,
-            "githubLink": "https://github.com/Bentot23/amazon-clone.git",
-            "appLink": "https://clone-273b4.web.app/"
-        },
-        {
-            "id": 3,
-            "title": 'Netflix Clone App',
-            "description": "A netflix app clone with similar functionalities of the real app using ReactJS!",
-            "image": netflixImage,
-            "githubLink": "https://github.com/Bentot23/netflix-app-clone-project.git",
-            "appLink": "https://main.djjq2suxqxp7.amplifyapp.com/"
-        },
-        {
-            "id": 4,
-            "title": 'Amazon Clone App',
-            "description": "An amazon clone app with similar functionalities of the app using ReactJS!",
-            "image": amazonImage,
-            "githubLink": "https://github.com/Bentot23/amazon-clone.git",
-            "appLink": "https://clone-273b4.web.app/"
-        },
-      ]
-    //   const renderProjects = projects.map((project) => {
-    //     console.log(project.id)
-    //     return (
-    //         <div className='project_main_container'>
-    //             <div className='projects_container'>
-    //             <ProjectCard
-    //                 key={project.id}
-    //                 project={project}
-    //             />
-    //             </div>
-    //         </div>
-    //     )
-    //   }
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+	return (
+		<>
+			<div className="page_content">
+				<Navbar active="projects" />
+				<div className="content_wrapper">
+					{/* <div className="projects_logo_container">
+						<div className="projects_logo">
+							<Logo width={46} />
+						</div>
+					</div> */}
+					<div className="projects_container">
+						<div className="projects_title">
+							<h1>These are some Projects I can do.</h1>
+						</div>
 
-    //   )
-  return (
-    <div className='project_main_container'>
-        {projects.map((project) => {
-            return (
-                <div className='projects_container'>
-                    <ProjectCard
-                        key={project.id}
-                        project={project}
-                    />
-                </div>
-            )
-        })}
-    </div>
-  )
-}
+						<div className="projects_sub">
+							<p>I've worked some projects and coding exercises during my bootcamp
+							and I'm proud of the progress I've made. Many of
+							these projects are open-source and available for
+							others to explore and contribute to. If you're
+							interested in any of the projects I've worked on,
+							please feel free to check out the code and suggest
+							any improvements or enhancements you might have in
+							mind. Collaborating with others is a great way to
+							learn and grow, and I'm always open to new ideas and
+							feedback.</p>
+						</div>
+                    </div>
+                    <div>
+						<div className="projects_list">
+							<ProjectContainer />
+						</div>
+                        <div className="page_footer">
+						    <Footer />
+					    </div>
+					</div>
+					
+				</div>
+			</div>
+		</>
+	);
+};
 
-export default ProjectPage
+export default ProjectPage;

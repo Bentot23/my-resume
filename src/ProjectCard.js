@@ -16,21 +16,19 @@ const ProjectCard = ({project}) => {
 
     <>
         <div className="project">
-            <Link to={githubLink}>
-                <div className="project_container">
-                    <div className="project_image">
-                        <img src={image} alt="" />
-                    </div>
-                    <div className="project_title">{title}</div>
-                    <div className="project_description">{description}</div>
-                    <div className="project_link">
-                        <div className="project_link_icon">
-                            <Link href={githubLink}><FontAwesomeIcon icon={faLink} />Code</Link>
-                        </div>
-                            <Link href={appLink}><div className="project_link_text">View Project</div></Link>
-                    </div>
+            <div className="project_container">
+                <div className="project_image">
+                    <img src={image} alt="" />
                 </div>
-            </Link>
+                <div className="project_title">{title}</div>
+                <div className="project_description">{description}</div>
+                <div className="project_link">
+                    <div className="project_link_icon">
+                        <Link href={githubLink}><FontAwesomeIcon icon={faLink} />Code</Link>
+                    </div>
+                        <Link href={appLink}><div className="project_link_text">View Project</div></Link>
+                </div>
+            </div>
         </div>
 	</>
   )

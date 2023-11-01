@@ -41,12 +41,12 @@
 .about_left_side {
 	display: flex;
 	flex-direction: column;
-	flex-basis: 300px;
+	/* flex-basis: 300px; */
 }
 
 .about_image_container {
-	width: 150px;
-    height: 200px;
+	width: 270px;
+    /* height: 200px; */
 }
 
 .about_image_wrapper {
@@ -111,6 +111,7 @@
 		display: flex;
 	}
 }
+
 
 @media (max-width: 600px) {
 	.about_container {

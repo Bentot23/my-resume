@@ -2,8 +2,8 @@
 @import "./styles/style.css";
 
 body {
-  margin: 100px;
-  background-color: grey;
+  margin: 0;
+  /* background-color: grey; */
   font-family: var(--primary-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -1,9 +1,12 @@
 @import "./style.css";
 
 
-.container {
-    padding-top: 25px;
-    border-left: 25px;
+
+.home_container {
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    /* border-left: 25px; */
 }
 .main_info {
     display: flex;
@@ -26,8 +29,8 @@
 	align-items: center;
 }
 .image_container {
-    width: 150px;
-	height: 150px;
+    width: 270px;
+	height: 270px;
 }
 .image_wrapper {
     overflow: hidden;
@@ -92,22 +95,7 @@
 		margin-left: 10px;
 		order: 1;
 	}
-
-	/* .homepage-after-title {
-		flex-direction: column;
-	} */
-
 	.homepage_projects {
 		flex-basis: auto;
 	}
-
-	/* .homepage-articles {
-		flex-basis: auto;
-	} */
-
-	/* .homepage-works {
-		flex-basis: auto;
-		margin-left: -25px;
-		margin-right: -25px;
-	} */
 }

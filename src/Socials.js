@@ -21,7 +21,7 @@ const Socials = () => {
 			<div className="email">
 				<div className="email_wrapper">
 				
-                    <div className="social_link"><Link to="vincentaldiano@gmail.com">
+                    <div className="social_link"><Link to="https://vincentaldiano@gmail.com">
                     <EmailSharpIcon /></Link>
                     </div>
 
