@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 // import Footer from "../components/common/footer";
 import Navbar from "./Navbar";
 import "./styles/About.css";
-import image from "./images/MyPic.JPG";
+import image from "./images/MyPic.png";
 import Socials from "./Socials";
 
 

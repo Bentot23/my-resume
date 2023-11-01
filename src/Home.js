@@ -1,5 +1,5 @@
 import React from 'react'
-import image from "./images/MyPic.JPG"
+import image from "./images/MyPic.png"
 import ProjectPage from './ProjectPage';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
