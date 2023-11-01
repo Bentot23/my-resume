@@ -1,0 +1,40 @@
+@import "./style.css";
+
+.social,
+.email_wrapper {
+	display: flex;
+    padding-top: 20px;
+	padding-bottom: 20px;
+    align-items: center;
+}
+/* 
+.social a,
+.email_wrapper a {
+	text-decoration: none;
+} */
+
+.social_link {
+	font-size: 15px;
+	color: var(--secondary-color);
+}
+
+.social_text {
+    /* display: flex; */
+	color: var(--secondary-color);
+	/* padding-left: 30px; */
+	margin-top: -10px;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.email::before {
+	content: "";
+	display: block;
+	padding-top: 20px;
+	border-top: 3px solid #f4f4f5;
+	margin-top: 20px;
+}
+
+.email_wrapper {
+	padding-top: 20px;
+}

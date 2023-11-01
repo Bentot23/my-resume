@@ -1,29 +1,71 @@
 import React from 'react'
+import ProjectCard from './ProjectCard'
+import netflixImage from './images/Netflix.png'
+import amazonImage from './images/Amazon.png'
+import './styles/ProjectPage.css'
 
 const ProjectPage = () => {
-  return (
-    <div>
-        
-        <div class="projects_container">
-            
-            {/* <div class="project">
-                <a href="https://clone-273b4.web.app">Amazon Clone App Project</a>
-                <a href="https://github.com/Bentot23/amazon-clone.git"><i class='bx bx-code' ></i></a>
-            </div>
-            <div class="project">
-                <a href="https://netflix-app-clone-project.web.app">Netflix Clone App Project</a>
-                <a href="https://github.com/Bentot23/netflix-app-clone-project.git"><i class='bx bx-code' ></i></a>
-            </div> */}
-        </div>
+    const projects = [
+        {
+         "id": 1,
+         "title": 'Netflix Clone App',
+         "description": "A netflix app clone with similar functionalities of the real app using ReactJS!",
+         "image": netflixImage,
+         "githubLink": "https://github.com/Bentot23/netflix-app-clone-project.git",
+         "appLink": "https://main.djjq2suxqxp7.amplifyapp.com/"
+        },
+        {
+            "id": 2,
+            "title": 'Amazon Clone App',
+            "description": "An amazon clone app with similar functionalities of the app using ReactJS!",
+            "image": amazonImage,
+            "githubLink": "https://github.com/Bentot23/amazon-clone.git",
+            "appLink": "https://clone-273b4.web.app/"
+        },
+        {
+            "id": 3,
+            "title": 'Netflix Clone App',
+            "description": "A netflix app clone with similar functionalities of the real app using ReactJS!",
+            "image": netflixImage,
+            "githubLink": "https://github.com/Bentot23/netflix-app-clone-project.git",
+            "appLink": "https://main.djjq2suxqxp7.amplifyapp.com/"
+        },
+        {
+            "id": 4,
+            "title": 'Amazon Clone App',
+            "description": "An amazon clone app with similar functionalities of the app using ReactJS!",
+            "image": amazonImage,
+            "githubLink": "https://github.com/Bentot23/amazon-clone.git",
+            "appLink": "https://clone-273b4.web.app/"
+        },
+      ]
+    //   const renderProjects = projects.map((project) => {
+    //     console.log(project.id)
+    //     return (
+    //         <div className='project_main_container'>
+    //             <div className='projects_container'>
+    //             <ProjectCard
+    //                 key={project.id}
+    //                 project={project}
+    //             />
+    //             </div>
+    //         </div>
+    //     )
+    //   }
 
-        <div class="share">
-            <p>Check out my:</p>
-            <div class="social">
-                {/* <a href="https://github.com/Bentot23"><i class='bx bxl-github' undefined ></i></a>
-                <a href="https://linkedin.com/in/vincent-aldiano-789871171"><i class='bx bxl-linkedin' ></i></a>
-                <a href="#"><i class='bx bxl-messenger' ></i></a> */}
-            </div>
-        </div>
+    //   )
+  return (
+    <div className='project_main_container'>
+        {projects.map((project) => {
+            return (
+                <div className='projects_container'>
+                    <ProjectCard
+                        key={project.id}
+                        project={project}
+                    />
+                </div>
+            )
+        })}
     </div>
   )
 }
