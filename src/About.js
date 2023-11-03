@@ -29,12 +29,12 @@ const About = () => {
 					<div className="about_container">
 						<div className="about_main">
 							<div className="about_right_side">
-								<div className="about_title">
-									<h1>I'm Vincent A. I live in Texas where I start to learn and love coding!</h1>
+								<div className="title about_title">
+									I'm Vincent A. I live in Texas where I start to learn and love coding!
 								</div>
 
-								<div className="about_sub">
-									<p>I studied Software Engineering in a bootcamp in Flatiron School. I learned HTML, CSS, Vanilla JavaScript, ReactJS, Ruby, Ruby on Rails, SQL, Postgresql and different ui frameworks. Unfortunately, I was not able to finish the program in time. I continue to self learn the languages I learned during my bootcamp and try to make more projects through it! I'm always excited to learn new languages, like Python and Java which I will be learning soon. </p>
+								<div className="subtitle about_sub">
+									I studied Software Engineering in a bootcamp in Flatiron School. I learned HTML, CSS, Vanilla JavaScript, ReactJS, Ruby, Ruby on Rails, SQL, Postgresql and different UI CSS frameworks. I continue to hone my skills through self education, creating new projects and learning new languages. Right now, I am learning Python and Java, which I am very excited about.
 								</div>
 							</div>
 
@@ -43,7 +43,7 @@ const About = () => {
 									<div className="about_image_wrapper">
 										<img
 											src={image}
-											alt="about"
+											alt=""
 											className="about_image"
 										/>
 									</div>
@@ -58,9 +58,9 @@ const About = () => {
 							<Socials />
 						</div>
 					</div>
-				</div>
-                <div className="page_footer">
-					<Footer />
+					<div className="page_footer">
+						<Footer />
+					</div>
 				</div>
 			</div>
 		</>

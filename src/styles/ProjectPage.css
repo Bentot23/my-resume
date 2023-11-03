@@ -3,10 +3,14 @@
 .projects_container {
 	display: flex;
 	flex-direction: column;
-    /* width: 50%; */
-	height: 100%;
-	margin: 0;
-	padding-top: 120px;
+	justify-content: space-around;
+	margin-top: 120px;
+    
+}
+
+
+.projects_list {
+    flex-basis: auto;
 }
 
 @media (max-width: 600px) {
@@ -18,3 +22,4 @@
 		width: calc(100% / 2);
 	}
 }
+

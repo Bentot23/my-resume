@@ -56,7 +56,7 @@
 	width: 70%;
 }
 
-.sub {
+.subtitle {
 	padding-top: 10px;
 	color: var(--secondary-color);
 	font-size: 16px;
@@ -117,7 +117,7 @@
 		width: 100%;
 	}
 
-	.sub {
+	.subtitle {
 		width: 100%;
 	}
 }

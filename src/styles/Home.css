@@ -3,10 +3,7 @@
 
 
 .home_container {
-    padding-top: 100px;
-    padding-left: 150px;
-    padding-right: 150px;
-    /* border-left: 25px; */
+    padding-top: 25px;
 }
 .main_info {
     display: flex;
@@ -29,6 +26,7 @@
 	align-items: center;
 }
 .image_container {
+	padding-top: 150px;
     width: 270px;
 	height: 270px;
 }

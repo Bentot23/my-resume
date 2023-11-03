@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 const ProjectCard = ({project}) => {
-    console.log(project)
+    // console.log(project)
   const {image, title, description, githubLink, appLink  } = project
 //   const [isClick, setIsClick] = useState(false);
 
