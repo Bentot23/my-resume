@@ -27,7 +27,7 @@
 }
 .image_container {
 	padding-top: 150px;
-    width: 270px;
+    width: 170px;
 	height: 270px;
 }
 .image_wrapper {
@@ -88,10 +88,12 @@
 	}
 
 	.image_container {
-		padding-top: 100px;
-		padding-bottom: 150px;
+		padding-top: 80px;
+		padding-bottom: 20px;
 		margin-left: 10px;
 		order: 1;
+		/* width: 80%; */
+		/* height: 80%; */
 	}
 	.homepage_projects {
 		flex-basis: auto;
