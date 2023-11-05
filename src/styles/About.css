@@ -31,7 +31,11 @@
 }
 
 .about_image_container {
-	width: 370px;
+	/* width: 370px; */
+	padding-top: 10px;
+    width: 270px;
+	height: 270px;
+	padding-bottom: 100px;
 }
 
 .about_image_wrapper {
@@ -80,7 +84,11 @@
 	}
 
 	.about_image_container {
-		padding-bottom: 40px;
+		/* padding-bottom: 40px; */
+		padding-top: 10px;
+		padding-bottom: 150px;
+		margin-left: 50px;
+		order: 1;
 	}
 
 	.about_socials {
@@ -100,6 +108,9 @@
 	}
 
 	.about_image_container {
+		padding-top: 50px;
+		padding-bottom: 30px;
 		width: 80%;
+		height: 80%;
 	}
 }

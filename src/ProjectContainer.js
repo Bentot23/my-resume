@@ -22,14 +22,6 @@ const ProjectContainer = () => {
             "githubLink": "https://github.com/Bentot23/amazon-clone.git",
             "appLink": "https://clone-273b4.web.app/"
         },
-        {
-            "id": 3,
-            "title": 'Air7',
-            "description": "A non government organization website for members using ReactJS!",
-            // "image": netflixImage,
-            "githubLink": "https://github.com/Bentot23/netflix-app-clone-project.git",
-            "appLink": "https://main.djjq2suxqxp7.amplifyapp.com/"
-        },
         
       ]
     //   const renderProjects = projects.map((project) => {
