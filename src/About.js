@@ -30,7 +30,7 @@ const About = () => {
 						<div className="about_main">
 							<div className="about_right_side">
 								<div className="title about_title">
-									I'm Vincent A. I live in Texas where I start to learn and love coding!
+									I'm Vincent A. I live in Texas where I started to learn and love coding!
 								</div>
 
 								<div className="subtitle about_sub">
