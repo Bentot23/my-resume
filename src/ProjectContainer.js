@@ -2,6 +2,8 @@ import React from 'react'
 import ProjectCard from './ProjectCard'
 import netflixImage from './images/Netflix.png'
 import amazonImage from './images/Amazon.png'
+import wordpressImage from './images/Wordpress.png'
+
 import './styles/ProjectContainer.css'
 
 const ProjectContainer = () => {
@@ -21,6 +23,14 @@ const ProjectContainer = () => {
             "image": amazonImage,
             "githubLink": "https://github.com/Bentot23/amazon-clone.git",
             "appLink": "https://clone-273b4.web.app/"
+        },
+        {
+            "id": 3,
+            "title": 'Wordpress Sample Website',
+            "description": "An example of website hosted by wordpress",
+            "image": wordpressImage,
+            "githubLink": "",
+            "appLink": "https://dongvicclinic.000webhostapp.com/"
         },
         
       ]
