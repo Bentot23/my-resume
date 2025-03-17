@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard";
 import netflixImage from "./images/Netflix.png";
 import amazonImage from "./images/Amazon.png";
 import wordpressImage from "./images/Wordpress.png";
+import guessImage from "./images/GuessMyNumber.png";
 
 import "./styles/ProjectContainer.css";
 
@@ -33,6 +34,14 @@ const ProjectContainer = () => {
       image: wordpressImage,
       githubLink: "",
       appLink: "http://vincentaldiano.org/",
+    },
+    {
+      id: 4,
+      title: "Guess My Number",
+      description: "A simple game using JavaScript!",
+      image: guessImage,
+      githubLink: "https://github.com/Bentot23/guess-my-number.git",
+      appLink: "https://main.debgl1bg80xgq.amplifyapp.com",
     },
   ];
   //   const renderProjects = projects.map((project) => {
