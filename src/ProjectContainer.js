@@ -47,7 +47,7 @@ const ProjectContainer = () => {
     {
       id: 5,
       title: "Pig Game",
-      description: "Another simple game using JavaScript!",
+      description: "A simple game using JavaScript!",
       image: pigGameImage,
       githubLink: "https://github.com/Bentot23/pig-game.git",
       appLink: "https://main.d32m960qazp2kf.amplifyapp.com",
