@@ -4,7 +4,7 @@ import netflixImage from "./images/Netflix.png";
 import amazonImage from "./images/Amazon.png";
 import wordpressImage from "./images/Wordpress.png";
 import guessImage from "./images/GuessMyNumber.png";
-import pigImage from "./images/PigGame.png";
+import pigImage from "./images/PigGameTo100.png";
 
 import "./styles/ProjectContainer.css";
 
