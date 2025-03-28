@@ -4,7 +4,7 @@ import netflixImage from "./images/Netflix.png";
 import amazonImage from "./images/Amazon.png";
 import wordpressImage from "./images/Wordpress.png";
 import guessImage from "./images/GuessMyNumber.png";
-import pigGameImage from "./images/GuessMyNumber.png";
+import pigGameImage from "./images/PigGame.png";
 
 import "./styles/ProjectContainer.css";
 
@@ -47,7 +47,7 @@ const ProjectContainer = () => {
     {
       id: 5,
       title: "Pig Game",
-      description: "A simple game using JavaScript!",
+      description: "Another simple game using JavaScript!",
       image: pigGameImage,
       githubLink: "https://github.com/Bentot23/pig-game.git",
       appLink: "https://main.d32m960qazp2kf.amplifyapp.com",
