@@ -37,7 +37,7 @@ const About = () => {
                   such as HTML, CSS, Vanilla JavaScript, ReactJS, Ruby on Rails,
                   SQL, and different UI CSS frameworks. I continue to hone my
                   skills through self education, creating new projects, and
-                  learning new languages. I am learning Python, which I am very
+                  learning new languages. I am learning Java, which I am very
                   excited about right now. I am also learning Wordpess to
                   develop my web development skills.
                 </div>
