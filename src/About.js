@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 // import Footer from "../components/common/footer";
 import Navbar from "./Navbar";
 import "./styles/About.css";
-import image from "./images/MyPic.png";
+// import image from "./images/Pic.jpg";
 import Socials from "./Socials";
 import Footer from "./Footer";
 
@@ -15,50 +15,40 @@ const About = () => {
 
   return (
     <>
-      <div className="page_content">
+      <div className="page-content">
         <Navbar active="about" />
         <div className="content_wrapper">
-          {/* <div className="about-logo-container">
-						<div className="about-logo">
-							<Logo width={46} />
-						</div>
-					</div> */}
-
           <div className="about_container">
-            <div className="about_main">
-              <div className="about_right_side">
-                <div className="title about_title">
-                  I'm Vincent A. I live in Texas where I started to learn and
-                  love coding!
-                </div>
-
-                <div className="subtitle about_sub">
-                  I studied software development and learned coding languages
-                  such as HTML, CSS, Vanilla JavaScript, ReactJS, Ruby on Rails,
-                  SQL, and different UI CSS frameworks. I continue to hone my
-                  skills through self education, creating new projects, and
-                  learning new languages. I am learning Java, which I am very
-                  excited about right now. I am also learning Wordpess to
-                  develop my web development skills.
-                </div>
-              </div>
-
-              <div className="about_left_side">
-                <div className="about_image_container">
-                  <div className="about_image_wrapper">
-                    <img src={image} alt="" className="about_image" />
-                  </div>
-                </div>
-
-                <div className="about_socials">
-                  <Socials />
-                </div>
-              </div>
+            <div className="title about_title">
+              Crafting Clean Code. Driven by Growth.
             </div>
-            <div className="about_socials_mobile">
+
+            <div className="subtitle about_sub">
+              Hi, I’m Vincent. Based in Texas, my journey into tech began with a
+              spark of curiosity that quickly evolved into a true passion for
+              software development. I love the process of taking a blank text
+              editor and turning it into a functional, user-centric web
+              experience. I have built a strong foundation across the stack,
+              working with HTML, CSS, Vanilla JavaScript, ReactJS, Ruby on
+              Rails, SQL, and various modern UI frameworks. Because the web is
+              always evolving, I make it a priority to never stop growing. I am
+              constantly sharpening my skills through self-education, building
+              independent projects, and mastering new technologies. Right now, I
+              am channeling my excitement into earning formal Full-Stack
+              Development certifications and expanding my capabilities into
+              WordPress development. Whether building from scratch or leveraging
+              a CMS, I am driven to deliver versatile, high-quality solutions
+              and look forward to bringing this dedication to a collaborative,
+              dynamic team.
+            </div>
+          </div>
+
+          <div className="socials_container">
+            <div className="about_socials">
               <Socials />
             </div>
           </div>
+
           <div className="page_footer">
             <Footer />
           </div>

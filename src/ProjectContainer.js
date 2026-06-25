@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import netflixImage from "./images/Netflix.png";
 import amazonImage from "./images/Amazon.png";
-import wordpressImage from "./images/Wordpress.png";
+// import wordpressImage from "./images/Wordpress.png";
 import guessImage from "./images/GuessMyNumber.png";
 import pigImage from "./images/PigGameTo100.png";
 
@@ -28,14 +28,14 @@ const ProjectContainer = () => {
       githubLink: "https://github.com/Bentot23/amazon-clone.git",
       appLink: "https://clone-273b4.web.app/",
     },
-    {
-      id: 3,
-      title: "Wordpress Sample Website",
-      description: "An example of website hosted by wordpress",
-      image: wordpressImage,
-      githubLink: "",
-      appLink: "http://vincentaldiano.org/",
-    },
+    // {
+    //   id: 3,
+    //   title: "Wordpress Sample Website",
+    //   description: "An example of website hosted by wordpress",
+    //   image: wordpressImage,
+    //   githubLink: "",
+    //   appLink: "http://vincentaldiano.org/",
+    // },
     {
       id: 4,
       title: "Guess My Number",

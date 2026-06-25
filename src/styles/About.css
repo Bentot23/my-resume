@@ -1,117 +1,73 @@
 @import "./style.css";
 
 .about_container {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	margin: 0;
-	padding-top: 120px;
-}
-
-.about_main {
-	display: flex;
-}
-
-.about_right_side {
-	flex-basis: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 
 .about_title {
-	width: 100% !important;
+  text-align: center;
 }
 
 .about_sub {
-	width: 80% !important;
-}
-
-.about_left_side {
-	display: flex;
-	flex-direction: column;
-	flex-basis: 300px;
-}
-
-.about_image_container {
-	/* width: 370px; */
-	padding-top: 10px;
-    width: 170px;
-	height: 170px;
-	padding-bottom: 100px;
-}
-
-.about_image_wrapper {
-	display: inline-block;
-	overflow: hidden;
-	/* width: 100%; */
-	border-radius: 10%;
-	transform: rotate(3deg);
-}
-
-.about_image_wrapper img {
-	display: block;
-	width: 100%;
+  width: 85% !important;
 }
 
 .about_socials {
-    padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-.about_socials_mobile {
-	display: none;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 @media (max-width: 1024px) {
-	.about_logo {
-		z-index: 100;
-	}
-
-	.about_main {
-		flex-direction: column;
-	}
-
-	.about_sub {
-		padding-top: 20px !important;
-	}
-
-	.about_left_side {
-		flex-basis: 100%;
-		order: 1;
-	}
-
-	.about_right_side {
-		flex-basis: 100%;
-		order: 2;
-	}
-
-	.about_image_container {
-		/* padding-bottom: 40px; */
-		padding-top: 10px;
-		padding-bottom: 150px;
-		margin-left: 50px;
-		order: 1;
-	}
-
-	.about_socials {
-		display: none;
-	}
-
-	.about_socials_mobile {
-		padding-top: 30px;
-		display: flex;
-	}
+  .about_sub {
+    padding-top: 20px !important;
+  }
+  .about_socials {
+    padding-top: 30px;
+    display: flex;
+  }
 }
 
+@media (max-width: 800px) {
+  .content_wrapper {
+    width: 100%;
+    max-width: 100%;
+    /* margin: 10%;
+    padding: 10%; */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 
-@media (max-width: 600px) {
-	.about_container {
-		padding-top: 60px;
-	}
+  .about_title {
+    width: 100% !important;
+    margin-top: 20px;
+    order: 2;
+  }
 
-	.about_image_container {
-		padding-top: 50px;
-		padding-bottom: 100px;
-		margin-left: 10px;
-		/* width: 80%;
-		height: 80%; */
-	}
+  .about_sub {
+    width: 100% !important;
+    margin-top: 10px;
+    order: 3;
+  }
+}
+
+@media (min-width: 150px) and (max-width: 790px) {
+  .about_title {
+    width: 100% !important;
+    margin-top: 20px;
+    order: 2;
+    font-size: 30px;
+  }
+
+  .about_sub {
+    width: 100% !important;
+    margin-top: 10px;
+    order: 3;
+  }
 }

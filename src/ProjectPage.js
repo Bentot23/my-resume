@@ -15,22 +15,22 @@ const ProjectPage = () => {
         <div className="content_wrapper">
           <div className="projects_container">
             <div className=" title projects_title">
-              These are some Projects I can do.
+              Featured Work & Projects
             </div>
 
             <div className="subtitle projects_sub">
-              I've completed some projects and coding exercises during my
-              journey in learning software development and I'm proud of the
-              progress I've made. Many of these projects are open-source and
-              available for others to explore and contribute to. If you're
-              interested in any of the projects I've worked on, please feel free
-              to check out the code and suggest any improvements or enhancements
-              you might have in mind. Collaborating with others is a great way
-              to learn and grow, and I'm always open to new ideas and feedback.
+              Welcome to my project space! Here you’ll find a collection of web
+              applications, coding exercises, and experiments I’ve built
+              throughout my journey in software development. Each project
+              represents a milestone in my learning, a solved problem, or a new
+              technology mastered. Many of these projects are open-source and
+              hosted publicly. I believe that the best code is built together,
+              so I warmly invite you to explore the repositories, test the live
+              demos, and check out how they work under the hood.
             </div>
           </div>
-          <hr />
-
+          {/* <hr /> */}
+          {/* <div className="project_main_container"> */}
           <div className="projects_list">
             <ProjectContainer />
           </div>
