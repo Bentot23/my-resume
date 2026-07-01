@@ -22,8 +22,9 @@
   padding: 30px;
   /* color: var(--primary-color); */
   width: 100%; /* Grid handles the width now, just leave this at 100% */
-  overflow: hidden;
+  overflow: visible;
   box-sizing: border-box;
+  /* height: fit-content; */
 }
 
 .project_image {
@@ -45,6 +46,7 @@
 
 .project_description {
   color: var(--secondary-color);
+  font-size: 14px;
 }
 
 .project_link {
@@ -67,6 +69,7 @@
 
 @media (max-width: 600px) {
   .project {
-    height: 300px;
+    /* min-height: 100vh; */
+    height: auto;
   }
 }

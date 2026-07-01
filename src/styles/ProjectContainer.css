@@ -1,33 +1,4 @@
-/* .project_main_container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-left: -35px;
-  margin-right: -35px;
-}
-
-.projects_container {
-  width: calc(100% / 3);
-  box-sizing: border-box;
-  padding: 10px;
-  overflow: hidden;
-}
-
-@media (max-width: 600px) {
-  .projects_container {
-    width: calc(100% / 2);
-  }
-} */
-
-/* The main wrapper that holds everything */
 .project_main_container {
-  /* padding-top: 30px;
-  padding-bottom: 30px;
-  width: 100%;
-  box-sizing: border-box; */
-
   display: grid;
   /* This creates exactly 3 equal columns automatically */
   grid-template-columns: repeat(3, 3fr);
@@ -38,7 +9,6 @@
   box-sizing: border-box;
 }
 
-/* The actual grid list */
 .projects_list {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
@@ -46,11 +16,9 @@
   width: 100%;
   box-sizing: border-box;
 }
-
-/* The individual project cards */
 .projects_container {
-  width: 100%; /* Grid handles the width now, just leave this at 100% */
-  overflow: hidden;
+  width: 100%;
+  overflow: visible;
   box-sizing: border-box;
 }
 
@@ -61,18 +29,30 @@
   }
 
   .project_main_container {
-    /* background-color: blue; */
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .projects_list {
-    grid-template-columns: 1fr; /* 1 column on mobile */
+    grid-template-columns: 1fr; 
   }
 
   .project_main_container {
-    /* background-color: blue; */
-    grid-template-columns: 1fr; /* 1 column on mobile */
+    grid-template-columns: 1fr; 
+  }
+} */
+
+@media (min-width: 150px) and (max-width: 799px) {
+  .projects_list {
+    grid-template-columns: 1fr;
+  }
+
+  .project_main_container {
+    grid-template-columns: 1fr;
+  }
+
+  .projects_container {
+    height: fit-content;
   }
 }

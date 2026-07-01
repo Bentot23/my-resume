@@ -14,7 +14,7 @@ const ProjectContainer = () => {
       id: 1,
       title: "Netflix Clone App",
       description:
-        "A netflix app clone with similar functionalities of the real app using ReactJS!",
+        "A fully responsive Netflix clone built with React to display real-time movie and TV data using a third-party API. It demonstrates modern front-end development, clean component architecture, and polished UI design for a seamless user experience.",
       image: netflixImage,
       githubLink: "https://github.com/Bentot23/netflix-app-clone-project.git",
       appLink: "https://main.djjq2suxqxp7.amplifyapp.com/",
@@ -23,7 +23,7 @@ const ProjectContainer = () => {
       id: 2,
       title: "Amazon Clone App",
       description:
-        "An amazon clone app with similar functionalities of the app using ReactJS!",
+        "A fully responsive Amazon clone built with React that features a functional shopping cart and secure user authentication. It highlights efficient state management, clean routing, and a dynamic e-commerce layout designed for a smooth user experience.",
       image: amazonImage,
       githubLink: "https://github.com/Bentot23/amazon-clone.git",
       appLink: "https://clone-273b4.web.app/",
@@ -39,7 +39,8 @@ const ProjectContainer = () => {
     {
       id: 4,
       title: "Guess My Number",
-      description: "A simple game using JavaScript!",
+      description:
+        "An interactive web game built with vanilla JavaScript where players try to guess a randomly generated number within a set range. It features real-time feedback, score tracking, and dynamic DOM manipulation to deliver a fun and responsive user experience.",
       image: guessImage,
       githubLink: "https://github.com/Bentot23/guess-my-number.git",
       appLink: "https://main.debgl1bg80xgq.amplifyapp.com",
@@ -47,7 +48,8 @@ const ProjectContainer = () => {
     {
       id: 5,
       title: "Pig Game",
-      description: "A simple game using JavaScript!",
+      description:
+        "A fast-paced digital dice game built with vanilla JavaScript where two players race to reach 100 points by strategically banking their scores or risking it all on a single roll. The project highlights dynamic DOM manipulation, game logic implementation, and state management for a seamless multiplayer experience.",
       image: pigImage,
       githubLink: "https://github.com/Bentot23/pig-game.git",
       appLink: "https://main.d32m960qazp2kf.amplifyapp.com",

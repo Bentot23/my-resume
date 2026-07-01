@@ -73,7 +73,7 @@
   }
 }
 
-@media (min-width: 150px) and (max-width: 790px) {
+@media (min-width: 150px) and (max-width: 799px) {
   .content_wrapper {
     /* width: 100%; */
     max-width: 90%;
@@ -81,7 +81,8 @@
     padding: 10%;
   }
   .project_description {
-    display: none;
+    font-size: 14px;
+    display: block;
   }
   .projects_title {
     font-size: 30px;
